@@ -23,7 +23,7 @@ function Signup() {
   })
 
   return (
-    <div>
+    <div className="card form">
       <h1>Signup</h1>
       <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
       <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />

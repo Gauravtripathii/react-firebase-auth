@@ -6,11 +6,13 @@ import User from "./components/User";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route exact path="/signup" element={<Signup />} />
-        <Route exact path="/login" element={<Login />} />
-        <Route exact path="/" element={<User />} />
-      </Routes>
+      <div className="app">
+        <Routes>
+          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/" element={<User />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

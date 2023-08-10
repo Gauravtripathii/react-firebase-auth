@@ -13,7 +13,7 @@ function User() {
   });
 
   return (
-    <div>
+    <div className="card user">
       <h1>Welcome, {user?.email}!</h1>
       <button onClick={() => signOut(firebaseAuth)}>SignOut</button>
     </div>
